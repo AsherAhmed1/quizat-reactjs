@@ -1,0 +1,29 @@
+.registerForm {
+  max-width: 400px;
+  border-top: 3px solid var(--primary-900);
+  border-radius: var(--borderRadius);
+}
+.registerForm .logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1.38rem;
+}
+
+.registerForm h3 {
+  text-align: center;
+}
+.registerForm p {
+  margin: 0;
+  margin-top: 1rem;
+  text-align: center;
+}
+.registerForm .btn {
+  margin-top: 1rem;
+}
+.registerForm .member-btn {
+  background: transparent;
+  border: transparent;
+  color: var(--primary-500);
+  cursor: pointer;
+  letter-spacing: var(--letterSpacing);
+}

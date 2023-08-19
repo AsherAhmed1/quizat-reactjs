@@ -1,0 +1,38 @@
+.getQuestionPage .quizzes {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
+}
+@media (min-width: 992px) {
+  .getQuestionPage .quizzes {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+.getQuestionPage .divRow {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white);
+  border-radius: var(--borderRadius);
+  padding: 10px 5px;
+  margin: 10px 0;
+}
+.getQuestionPage .divRow.addBtnContainer {
+  margin-bottom: 25px;
+  background-color: transparent;
+}
+@media (max-width: 768px) {
+  .getQuestionPage .divRow {
+    flex-direction: column;
+  }
+}
+.getQuestionPage .divRow h4 {
+  margin: 0;
+}
+.getQuestionPage .divRow p {
+  margin: 0;
+}
+.getQuestionPage .divRow .btn:first-child {
+  margin-right: 5px;
+}

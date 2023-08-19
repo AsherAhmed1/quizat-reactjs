@@ -1,0 +1,40 @@
+.quizFilterForm {
+}
+.quizFilterForm .form {
+  width: 100%;
+  max-width: 100% !important;
+}
+.quizFilterForm .form-input,
+.quizFilterForm .form-select,
+.quizFilterForm .btn-block {
+  height: 35px;
+}
+.quizFilterForm .form-row {
+  margin-bottom: 0;
+}
+.quizFilterForm .form-center {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 2rem;
+  row-gap: 0.5rem;
+}
+.quizFilterForm h5 {
+  font-weight: 700;
+}
+.quizFilterForm .btn-block {
+  align-self: end;
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  .quizFilterForm .form-center {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 992px) {
+  .quizFilterForm .form-center {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .quizFilterForm .btn-block {
+    margin-top: 0;
+  }
+}

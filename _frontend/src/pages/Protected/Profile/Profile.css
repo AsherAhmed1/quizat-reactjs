@@ -1,0 +1,64 @@
+.editSubmitFormSection {
+  border-radius: var(--borderRadius);
+  background: var(--white);
+  padding: 3rem 2rem 4rem;
+  box-shadow: var(--shadow-2);
+}
+.editSubmitFormSection h3 {
+  margin-top: 0;
+}
+.editSubmitFormSection .form {
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  max-width: 100%;
+  width: 100%;
+}
+.editSubmitFormSection .form-row {
+  margin-bottom: 0;
+}
+.editSubmitFormSection .form-center {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 0.5rem;
+}
+.editSubmitFormSection .form-center button {
+  align-self: end;
+  height: 35px;
+  margin-top: 1rem;
+}
+.editSubmitFormSection .btn-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  align-self: flex-end;
+  margin-top: 0.5rem;
+}
+.editSubmitFormSection .btn-container button {
+  height: 35px;
+}
+.editSubmitFormSection .clear-btn {
+  background: var(--grey-500);
+}
+.editSubmitFormSection .clear-btn:hover {
+  background: var(--black);
+}
+@media (min-width: 992px) {
+  .editSubmitFormSection .form-center {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 1rem;
+  }
+  .editSubmitFormSection .btn-container {
+    margin-top: 0;
+  }
+}
+@media (min-width: 1120px) {
+  .editSubmitFormSection .form-center {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .editSubmitFormSection .form-center button {
+    margin-top: 0;
+  }
+}

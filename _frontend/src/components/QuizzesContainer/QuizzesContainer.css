@@ -1,0 +1,22 @@
+.quizzesContainer {
+  margin-top: 4rem;
+}
+
+.quizzesContainer h2 {
+  text-transform: none;
+}
+.quizzesContainer > h5 {
+  font-weight: 700;
+}
+.quizzesContainer .quizzes {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
+}
+@media (min-width: 992px) {
+  .quizzesContainer .quizzes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}

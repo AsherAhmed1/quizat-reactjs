@@ -1,0 +1,22 @@
+.copyToClipboard {
+  display: flex;
+  background: var(--grey-100);
+  border: 1px solid var(--grey-600);
+  border-radius: var(--borderRadius);
+  margin-bottom: 10px;
+}
+.copyToClipboard .valueToCopy {
+  width: 80%;
+  max-width: 80%;
+  padding: 7px 4px;
+  margin: 0;
+}
+.copyToClipboard .copyTextBtn {
+  background-color: var(--white);
+  color: var(--primary-500);
+  width: 20%;
+}
+.copyToClipboard .copyTextBtn:hover {
+  background-color: var(--primary-500);
+  color: var(--white);
+}

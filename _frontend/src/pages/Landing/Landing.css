@@ -1,0 +1,28 @@
+.appLanding nav {
+  width: var(--fluid-width); /*index.css => 90 vw */
+  max-width: var(--max-width); /*index.css => 1120px*/
+  margin: 0 auto;
+  height: var(--nav-height); /*index.css =>  6rem => 96px*/
+  display: flex;
+  align-items: center;
+}
+.appLanding .page {
+  min-height: calc(100vh - var(--nav-height));
+  display: grid;
+  align-items: center;
+  margin-top: -3rem;
+}
+
+/*last thing image*/
+.appLanding .main-img {
+  display: none;
+}
+@media (min-width: 992px) {
+  .appLanding .page {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+  }
+  .appLanding .main-img {
+    display: block;
+  }
+}
